@@ -311,6 +311,109 @@
     background: var(--bs-primary);
 }
 
+<<<<<<< HEAD
+=======
+
+/*** Testimonial 
+.testimonial-img {
+    position: relative;
+    padding: 45px 0 45px 90px;
+}
+
+.testimonial-img::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: calc(50% + 45px);
+    height: 100%;
+    background: var(--bs-primary);
+    z-index: -1;
+}
+
+.testimonial-text h5 {
+    position: relative;
+    padding-left: 45px;
+}
+
+.testimonial-text h5::before {
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 2px;
+    background: var(--bs-primary);
+}
+
+.testimonial-carousel .owl-dots {
+    position: absolute;
+    height: 17px;
+    bottom: 0;
+    right: 0;
+    left: auto;
+}
+
+.testimonial-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    background: var(--bs-white);
+    border: 2px solid var(--bs-primary);
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-dot.active {
+    width: 30px;
+    background: var(--bs-primary);
+}
+
+@media (max-width: 768px) {
+    .testimonial-carousel .owl-dots {
+        left: 0;
+        right: auto;
+    }
+
+    .testimonial-carousel .owl-dot {
+        margin-right: 10px;
+        margin-left: 0;
+    }
+}***/
+
+
+/*** Newsletter 
+.newsletter {
+    background: url(../img/hero-bg.jpg) bottom right no-repeat;
+    background-size: cover;
+}
+
+@media (min-width: 992px) {
+    .newsletter .container {
+        max-width: 100% !important;
+    }
+
+    .newsletter .newsletter-text  {
+        padding-right: calc(((100% - 960px) / 2) + .75rem);
+    }
+}
+
+@media (min-width: 1200px) {
+    .newsletter .newsletter-text  {
+        padding-right: calc(((100% - 1140px) / 2) + .75rem);
+    }
+}
+
+@media (min-width: 1400px) {
+    .newsletter .newsletter-text  {
+        padding-right: calc(((100% - 1320px) / 2) + .75rem);
+    }
+}***/
+
+
+>>>>>>> 8ffcf45849eb2e5e65ffda8aba2d1e8cc2255105
 /*** Footer ***/
 .footer .btn.btn-link {
     display: block;
@@ -364,6 +467,7 @@
 
 h5{
     color: rgb(255, 255, 255);
+<<<<<<< HEAD
 }
 
 .sobre-container {
@@ -590,4 +694,6 @@ h5{
     .calendar-header h2 {
         font-size: 1.2em;
     }
+=======
+>>>>>>> 8ffcf45849eb2e5e65ffda8aba2d1e8cc2255105
 }
